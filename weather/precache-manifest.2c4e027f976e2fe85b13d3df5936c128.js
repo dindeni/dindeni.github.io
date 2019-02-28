@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "./static/media/firamono-bold-webfont.979990a1.woff2"
   },
   {
-    "revision": "5e23b26ac270cb9dfce5",
+    "revision": "3b320eb4c17ab01fb7c5",
     "url": "./static/css/main.35d57b75.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "./static/media/Rectangle.f4beee7a.svg"
   },
   {
-    "revision": "5e23b26ac270cb9dfce5",
-    "url": "./static/js/main.5e23b26a.chunk.js"
+    "revision": "3b320eb4c17ab01fb7c5",
+    "url": "./static/js/main.3b320eb4.chunk.js"
   },
   {
     "revision": "a9d23f6bc63328f64505e666f3758e5a",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "./static/media/head.24053a9e.svg"
   },
   {
-    "revision": "a9640385f95feb6d6c3ed3f57f2ba808",
+    "revision": "78057f5a4084150a0941f6e1cc3e5f57",
     "url": "./index.html"
   }
 ];
