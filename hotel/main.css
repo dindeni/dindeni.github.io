@@ -9,11 +9,11 @@
   border: 1px solid rgba(0, 0, 0, 0.12);
   background: #FFFFFF;
   padding-left: 30px; }
-  .searchRoom .button__full {
+  .searchRoom .button--full {
     margin: 32px 0 0 0; }
 
 .searchRoom__head {
-  font: 24px/29px Quickand-regular, sans-serif;
+  font: 1.7rem/29px Quickand-regular, sans-serif;
   font-weight: bold;
   width: 280px;
   margin: 41px 0 0 0;
@@ -22,7 +22,7 @@
 .searchRoom__check {
   font-family: Montserrat-regular, sans-serif; }
   .searchRoom__check .input__label-dropdown {
-    margin: 5px 20px 0 0; }
+    margin: 6px 20px 0 0; }
 
 .searchRoom__input-label {
   position: relative; }
@@ -31,15 +31,15 @@
     content: '';
     width: 44px;
     height: 44px;
-    background: url(files/b1607c0fadd78d6684851f2b2965d41d.svg) no-repeat;
+    background: url(files/b3cbd768a0826970b3ba459bc25620bb.svg) no-repeat;
     right: 4px;
     top: 6px; }
 
 .searchRoom__label {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 0.86rem;
   font-weight: bold;
-  margin: 20px 0 0 0;
+  margin: 21px 0 0 0;
   width: 150px;
   display: inline-block;
   letter-spacing: -0.8px; }
@@ -115,23 +115,23 @@
     .searchRoom .input.input__date {
       width: 120px; }
     .searchRoom .input::-webkit-input-placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .searchRoom .input::-moz-placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .searchRoom .input:-ms-input-placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .searchRoom .input::-ms-input-placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .searchRoom .input::placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .searchRoom .input__label-dropdown::after {
       right: -20px; }
     .searchRoom .input {
       width: 265px; }
-    .searchRoom .button__full--buy {
+    .searchRoom .button--for-filtering {
       padding: 15px 65px; }
   .searchRoom__head {
-    font-size: 22px; }
+    font-size: 1.5rem; }
   .searchRoom__label {
     width: 120px; }
   .ui-datepicker.ui-widget {
@@ -169,6 +169,11 @@
   font-family: Montserrat-regular;
   src: url(files/d8a89b0444c6d0df8add4d7bc897dc39.woff) format("woff"), url(files/62bec218ddd1b5b829b635e111413ee8.svg) format("svg"), url(files/83c1c0bff92f98fffdf201abd3802cf4.ttf) format("truetype"); }
 
+html {
+  font: 14px/14px Montserrat-regular, Arial;
+  background: #FFFFFF;
+  color: #000000; }
+
 body {
   margin: 0; }
 
@@ -185,15 +190,15 @@ body {
     content: '';
     width: 44px;
     height: 44px;
-    background: url(files/b1607c0fadd78d6684851f2b2965d41d.svg) no-repeat;
+    background: url(files/b3cbd768a0826970b3ba459bc25620bb.svg) no-repeat;
     right: 4px;
     top: 6px; }
 
 .guests {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 0.86rem;
   font-weight: bold;
-  margin: 20px 0 0 0;
+  margin: 21px 0 0 0;
   width: 150px;
   display: inline-block;
   letter-spacing: -0.8px; }
@@ -288,7 +293,7 @@ body {
 
 .rooms .input__dropdown {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   padding: 10px 14px; }
@@ -296,12 +301,12 @@ body {
 .rooms__count-container {
   font-family: Montserrat-regular, sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.86rem;
   text-transform: uppercase;
   color: rgba(31, 32, 65, 0.75);
   color: #1f2041; }
 
-.button__full {
+.button--full {
   background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
   background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
   border-radius: 22px;
@@ -309,12 +314,12 @@ body {
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   color: #FFFFFF;
-  font-size: 12px;
+  font-size: 0.86rem;
   font-weight: bold;
   padding: 15px 18px;
   cursor: pointer;
   text-decoration: none; }
-  .button__full:hover {
+  .button--full:hover {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(188, 156, 255, 0.5)), to(rgba(139, 164, 249, 0.5)));
     background: linear-gradient(180deg, rgba(188, 156, 255, 0.5) 0%, rgba(139, 164, 249, 0.5) 100%); }
 
@@ -329,22 +334,22 @@ body {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(188, 156, 255, 0.5)), to(rgba(139, 164, 249, 0.5)));
     background: linear-gradient(180deg, rgba(188, 156, 255, 0.5) 0%, rgba(139, 164, 249, 0.5) 100%); }
 
-.button__border {
+.button--bordering {
   background: #FFFFFF;
   border: none;
   border-radius: 22px;
   color: #bc9cff;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
-  font-size: 12px;
+  font-size: 0.86rem;
   font-weight: bold;
   padding: 12px 15px; }
 
-.button__border-link {
+.button--with-bordering-link {
   text-decoration: none;
   font-family: Montserrat-regular, sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.86rem;
   text-transform: uppercase;
   color: rgba(31, 32, 65, 0.75);
   color: #bc9cff;
@@ -356,7 +361,7 @@ body {
   line-height: 15px;
   width: 81px;
   position: relative; }
-  .button__border-link::before {
+  .button--with-bordering-link::before {
     position: absolute;
     content: '';
     width: 87px;
@@ -367,51 +372,51 @@ body {
     z-index: -10;
     top: -3px;
     left: -3px; }
-  .button__border-link:hover::before {
+  .button--with-bordering-link:hover::before {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(188, 156, 255, 0.5)), to(rgba(139, 164, 249, 0.5)));
     background: linear-gradient(180deg, rgba(188, 156, 255, 0.5) 0%, rgba(139, 164, 249, 0.5) 100%); }
 
-.button__transparent {
+.button--transparent {
   border: none;
   background: #FFFFFF;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
-  font-size: 12px;
+  font-size: 0.86rem;
   font-weight: bold;
   color: #BC9CFF;
   margin-left: 5px; }
-  .button__transparent:hover {
+  .button--transparent:hover {
     color: rgba(31, 32, 65, 0.5); }
 
-.button__full--buy {
+.button--for-filtering {
   position: relative;
   padding: 15px 91px; }
-  .button__full--buy::after {
+  .button--for-filtering::after {
     position: absolute;
     content: '';
     width: 44px;
     height: 44px;
-    background: url(files/b54a035c5511ac000d8d23b607612d33.svg) no-repeat;
+    background: url(files/ae907cdd4d3c2e2b59001e4e224bad9f.svg) no-repeat;
     right: -14px;
     top: 12px; }
 
-.button__border--like {
-  font-size: 10px;
+.button--for-rate {
+  font-size: 0.86rem;
   font-weight: normal;
   padding: 0 0 0 8px;
   width: 100%;
   height: 100%;
   position: relative; }
-  .button__border--like::before {
+  .button--for-rate::before {
     position: absolute;
     content: '';
     width: 20px;
     height: 20px;
-    background: url(files/7bc0d10cb7ccb664e4bef7963951c6cb.svg) no-repeat;
+    background: url(files/7348379a97f1844d84bfb33cac4116fa.svg) no-repeat;
     left: 3px;
     top: 5px; }
 
-.button__wrapper.button__wrapper--like {
+.button__wrapper.button__wrapper--for-rate {
   padding: 1px;
   border-radius: 10px;
   display: -webkit-box;
@@ -423,14 +428,14 @@ body {
           box-sizing: border-box;
   margin-top: 10px; }
 
-.button__wrapper.button__wrapper--like.button__wrapper--like-gray {
+.button__wrapper.button__wrapper--for-rate.button__wrapper--for-rate-gray {
   border: 1px solid rgba(31, 32, 65, 0.25);
   background: none; }
 
-.button__border--like.button__border--like-gray {
+.button--for-rate.button--for-rate-gray {
   color: rgba(31, 32, 65, 0.25); }
-  .button__border--like.button__border--like-gray::before {
-    background: url(files/a9d992e340896a7efe913473b223b2c1.svg) no-repeat; }
+  .button--for-rate.button--for-rate-gray::before {
+    background: url(files/f9a6da1821c597a419ac198cdd6da0cb.svg) no-repeat; }
 
 .input {
   width: 320px;
@@ -442,27 +447,27 @@ body {
   .input::-webkit-input-placeholder {
     text-transform: none;
     color: rgba(31, 32, 65, 0.25);
-    font-size: 14px;
+    font-size: 1rem;
     font-family: Montserrat, sans-serif; }
   .input::-moz-placeholder {
     text-transform: none;
     color: rgba(31, 32, 65, 0.25);
-    font-size: 14px;
+    font-size: 1rem;
     font-family: Montserrat, sans-serif; }
   .input:-ms-input-placeholder {
     text-transform: none;
     color: rgba(31, 32, 65, 0.25);
-    font-size: 14px;
+    font-size: 1rem;
     font-family: Montserrat, sans-serif; }
   .input::-ms-input-placeholder {
     text-transform: none;
     color: rgba(31, 32, 65, 0.25);
-    font-size: 14px;
+    font-size: 1rem;
     font-family: Montserrat, sans-serif; }
   .input::placeholder {
     text-transform: none;
     color: rgba(31, 32, 65, 0.25);
-    font-size: 14px;
+    font-size: 1rem;
     font-family: Montserrat, sans-serif; }
   .input.input__text::-webkit-input-placeholder {
     text-transform: capitalize; }
@@ -571,7 +576,7 @@ body {
   padding: 0 0 0 20px;
   display: block;
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   margin: 0 0 12px 12px;
@@ -625,7 +630,7 @@ body {
     content: '';
     width: 10px;
     height: 10px;
-    background: url(files/a9508baf4925a38fd8471557028edc85.svg);
+    background: url(files/94bdd59a90f653045ba55b4e404407ec.svg);
     left: -5px;
     top: 4px; }
 
@@ -633,7 +638,7 @@ body {
   position: relative;
   font-family: Montserrat-regular, sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.86rem;
   text-transform: uppercase;
   color: rgba(31, 32, 65, 0.75);
   color: #1f2041;
@@ -645,7 +650,7 @@ body {
     content: '';
     width: 12px;
     height: 8px;
-    background: url(files/b1607c0fadd78d6684851f2b2965d41d.svg) no-repeat;
+    background: url(files/b3cbd768a0826970b3ba459bc25620bb.svg) no-repeat;
     right: 0;
     -webkit-transform: var(--rotate);
             transform: var(--rotate);
@@ -666,7 +671,7 @@ body {
 .radio__label {
   position: relative;
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   color: rgba(31, 32, 65, 0.5);
@@ -713,7 +718,7 @@ body {
 
 .toggle__label {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   padding: 0 0 0 45px;
@@ -774,7 +779,7 @@ body {
 .range__label {
   font-family: Montserrat-regular, sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.86rem;
   text-transform: uppercase;
   color: rgba(31, 32, 65, 0.75);
   color: rgba(31, 32, 65, 0.5);
@@ -789,7 +794,7 @@ body {
   list-style: none;
   font-family: Montserrat-regular, sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.86rem;
   text-transform: uppercase;
   color: rgba(31, 32, 65, 0.75);
   display: -webkit-box;
@@ -837,12 +842,12 @@ body {
     width: 18px;
     height: 18px;
     margin: 0 auto;
-    background: url(files/b54a035c5511ac000d8d23b607612d33.svg) no-repeat;
+    background: url(files/ae907cdd4d3c2e2b59001e4e224bad9f.svg) no-repeat;
     background-size: 18px 18px; }
 
 .pagination__description {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   margin-left: 26px; }
@@ -856,7 +861,7 @@ body {
   padding: 0;
   list-style: none;
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75); }
 
@@ -876,7 +881,7 @@ body {
 
 .review {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   position: relative; }
@@ -917,7 +922,7 @@ body {
 
 .features {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75); }
 
@@ -931,7 +936,7 @@ body {
     content: '';
     width: 48px;
     height: 48px;
-    background: url(files/700d80cd3e09cd1b9bb16e99bc2e27ff.svg) no-repeat;
+    background: url(files/6782fe150406b4d81a24ab4f774776bf.svg) no-repeat;
     left: 8px;
     top: 2px; }
 
@@ -941,9 +946,9 @@ body {
 .features__wrapper {
   margin: 0 0 40px 0; }
   .features__wrapper:nth-child(2) .features__slogan::before {
-    background: url(files/68b26298755f28fcf2a1977cdf3ae194.svg) no-repeat; }
+    background: url(files/0921b4d6489248973178b7257583cd03.svg) no-repeat; }
   .features__wrapper:nth-child(3) .features__slogan::before {
-    background: url(files/410e4a5ff7b19cc156bb7eed6ac147d8.svg) no-repeat; }
+    background: url(files/4ab5f64cfd2bef6743d2388c92fd96c6.svg) no-repeat; }
 
 .ui-datepicker {
   width: 320px;
@@ -960,9 +965,9 @@ body {
   text-transform: capitalize;
   font-weight: bold;
   font-family: Quickand-regular, sans-serif;
-  font-size: 19px;
+  font-size: 1.36rem;
   text-align: center;
-  margin: 3px 0 0 0;
+  margin: 10px 8px 0 0;
   letter-spacing: -1px; }
 
 .ui-icon.ui-icon-circle-triangle-e, .ui-icon.ui-icon-circle-triangle-w {
@@ -976,7 +981,7 @@ body {
     content: '';
     width: 24px;
     height: 24px;
-    background: url(files/bd1893a59acbe2921ecd0d4519d77138.svg) no-repeat;
+    background: url(files/80658cf5b0ef60b43e41d4caf03316ed.svg) no-repeat;
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
     left: 15px;
@@ -990,13 +995,13 @@ body {
     content: '';
     width: 24px;
     height: 24px;
-    background: url(files/bd1893a59acbe2921ecd0d4519d77138.svg) no-repeat;
-    left: 241px;
-    top: 27px; }
+    background: url(files/80658cf5b0ef60b43e41d4caf03316ed.svg) no-repeat;
+    left: 248px;
+    top: 22px; }
 
 .ui-datepicker-calendar {
-  margin: 39px 0 0 29px;
-  font-size: 12px; }
+  margin: 46px 0 0 28px;
+  font-size: 0.86rem; }
   .ui-datepicker-calendar thead {
     color: #BC9CFF;
     width: 100%; }
@@ -1005,18 +1010,17 @@ body {
     display: -ms-flexbox;
     display: flex; }
   .ui-datepicker-calendar th {
-    margin: 0 20px 20px 0;
+    margin: 0 22px 20px 0;
     display: inline-block; }
   .ui-datepicker-calendar td, .ui-datepicker-calendar td .ui-state-default {
     color: rgba(31, 32, 65, 0.5);
     text-decoration: none;
     width: 20px;
-    margin: 0 18px 11.6px 0;
+    margin: 0 18px 12px 0;
     display: inline-block;
     text-align: center; }
 
 .ui-datepicker-calendar .ui-datepicker-today .ui-state-default {
-  font-family: Montserrat, sans-serif;
   color: #FFFFFF;
   font-weight: bold;
   position: relative; }
@@ -1039,19 +1043,17 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: Montserrat-regular, sans-serif;
-  font-weight: bold;
-  font-size: 12px;
-  text-transform: uppercase;
-  color: rgba(31, 32, 65, 0.75);
-  margin: 4px 0 0 10px; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 8px 0 0 15px; }
   .ui-datepicker-buttonpane .ui-datepicker-current {
     color: #bc9cff;
     -webkit-box-ordinal-group: 11;
         -ms-flex-order: 10;
             order: 10; }
-  .ui-datepicker-buttonpane .ui-datepicker-close {
-    margin-right: 105px; }
+  .ui-datepicker-buttonpane .ui-datepicker-current {
+    margin-right: 15px; }
 
 .ui-datepicker-close, .ui-datepicker-current {
   -webkit-box-ordinal-group: -9;
@@ -1059,7 +1061,12 @@ body {
           order: -10;
   background: none;
   border: none;
-  color: rgba(31, 32, 65, 0.5); }
+  color: rgba(31, 32, 65, 0.5);
+  font-family: Montserrat-regular, sans-serif;
+  font-weight: bold;
+  font-size: 0.86rem;
+  text-transform: uppercase;
+  color: rgba(31, 32, 65, 0.75); }
 
 .registration {
   width: 380px;
@@ -1086,25 +1093,25 @@ body {
   .registration .toggle {
     margin: 9px 0 0 5px;
     display: inline-block; }
-  .registration .button__full--buy {
+  .registration .button--for-filtering {
     margin: 22px 0 0 0;
     padding: 15px 93px; }
-    .registration .button__full--buy::after {
+    .registration .button--for-filtering::after {
       right: -12px; }
   .registration .button__wrapper {
     margin: 0 0 0 33px; }
-  .registration .button__border-link {
+  .registration .button--with-bordering-link {
     margin: 3px 0 0 38px;
     width: 92px;
     padding: 11px 0; }
-    .registration .button__border-link::before {
+    .registration .button--with-bordering-link::before {
       width: 99px;
       height: 44px; }
 
 .registration__head {
   font-family: Quicksand, sans-serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.71rem;
   color: #1F2041;
   margin: 42px 0 0 0; }
 
@@ -1126,7 +1133,7 @@ body {
 .registration__date-head, .registration__data-head {
   font-family: Montserrat-regular, sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.86rem;
   text-transform: uppercase;
   color: rgba(31, 32, 65, 0.75);
   color: #1f2041;
@@ -1139,7 +1146,7 @@ body {
 
 .registration__footer-label {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75); }
 
@@ -1188,11 +1195,11 @@ body {
   .orderRoom .searchRoom__label {
     font-family: Montserrat-regular, sans-serif;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.86rem;
     text-transform: uppercase;
     color: rgba(31, 32, 65, 0.75);
     color: #1f2041; }
-  .orderRoom .button__full--buy {
+  .orderRoom .button--for-filtering {
     margin: 20px 0 0 0;
     padding: 15px 99px; }
 
@@ -1205,22 +1212,22 @@ body {
 .orderRoom__number {
   font-family: Quicksand, sans-serif;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 1.36rem;
   color: #1F2041;
-  font-size: 24px;
+  font-size: 1.71rem;
   letter-spacing: -1.5px;
   margin: 0 4px 0 3px; }
 
 .orderRoom__number-mark {
   font-family: Quicksand, sans-serif;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 1.36rem;
   color: #1F2041;
-  font-size: 14px; }
+  font-size: 1rem; }
 
 .orderRoom__type-room {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   color: #bc9cff;
@@ -1229,7 +1236,7 @@ body {
 
 .orderRoom__price-wrapper {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   color: rgba(31, 32, 65, 0.5);
@@ -1237,7 +1244,7 @@ body {
 
 .orderRoom__price {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   color: rgba(31, 32, 65, 0.5);
@@ -1246,10 +1253,10 @@ body {
 
 .orderRoom__periodicity {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
-  font-size: 12px;
+  font-size: 0.86rem;
   margin-left: 6px; }
 
 .orderRoom__form {
@@ -1263,7 +1270,7 @@ body {
 .orderRoom__guests {
   font-family: Montserrat-regular, sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.86rem;
   text-transform: uppercase;
   color: rgba(31, 32, 65, 0.75);
   color: #1f2041; }
@@ -1272,7 +1279,7 @@ body {
 
 .orderRoom__total {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   line-height: 18px;
@@ -1308,7 +1315,7 @@ body {
 .orderRoom__sum-wrapper {
   font-family: Quicksand, sans-serif;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 1.36rem;
   color: #1F2041;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1334,14 +1341,14 @@ body {
 
 @media (max-width: 450px) {
   .ui-datepicker.ui-widget.ui-widget-content {
-    width: 258px; }
+    width: 264px; }
   .ui-datepicker.ui-widget .ui-datepicker-title {
-    font-size: 16px; }
+    font-size: 1.14rem; }
   .ui-datepicker.ui-widget .ui-datepicker-next::before {
     left: 180px;
     top: 22px; }
   .ui-datepicker.ui-widget .ui-datepicker-calendar {
-    font-size: 10px; }
+    font-size: 0.71rem; }
   .ui-datepicker.ui-widget .ui-datepicker-calendar {
     margin: 39px 0 0 5px; }
   .ui-datepicker.ui-widget .ui-datepicker-calendar td, .ui-datepicker.ui-widget .ui-datepicker-calendar td .ui-state-default {
@@ -1448,7 +1455,7 @@ body {
 .cardRoom__number {
   font-family: Quicksand, sans-serif;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 1.36rem;
   color: #1F2041;
   letter-spacing: -1.5px;
   margin: 0 4px 0 3px; }
@@ -1456,14 +1463,14 @@ body {
 .cardRoom__number-mark {
   font-family: Quicksand, sans-serif;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 1.36rem;
   color: #1F2041;
   font-size: 14px;
   margin-left: 20px; }
 
 .cardRoom__type-room {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   color: #bc9cff;
@@ -1471,7 +1478,7 @@ body {
 
 .cardRoom__price-wrapper {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   color: rgba(31, 32, 65, 0.5);
@@ -1479,7 +1486,7 @@ body {
 
 .cardRoom__price {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   color: rgba(31, 32, 65, 0.5);
@@ -1491,7 +1498,7 @@ body {
 
 .cardRoom__periodicity {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   font-size: 12px;
@@ -1500,7 +1507,7 @@ body {
 .cardRoom__number-review {
   display: inline-block;
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   font-weight: bold;
@@ -1523,30 +1530,33 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 0 10px 20px rgba(31, 32, 65, 0.05);
-          box-shadow: 0 10px 20px rgba(31, 32, 65, 0.05); }
+          box-shadow: 0 10px 20px rgba(31, 32, 65, 0.05);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .nav-standart .button__wrapper {
     height: 35px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin: 17px 0 0 24px; }
-  .nav-standart .button__full {
+  .nav-standart .button--full {
     height: 35px;
     margin: 17px 0 0 21px;
     padding: 10px 18px; }
-  .nav-standart .button__border {
+  .nav-standart .button--bordering {
     padding: 0;
     width: 85px;
     height: 30px;
     display: inline-block; }
   .nav-standart .nav-standart__buttons-wrapper {
-    margin: 21px 0 0 8px; }
+    margin: 0 0 0 8px; }
 
 .nav-standart--logged .nav-standart__list {
   margin: 5px 0 0 24.2%; }
 
 .nav-standart--logged .nav-standart__userName {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   margin: 26px 0 0 4%;
@@ -1562,11 +1572,12 @@ body {
     top: -5px; }
 
 .nav-standart__logo {
-  margin: 0 0 0 9.8%; }
+  margin: 0 0 0 9.8%;
+  height: 40px; }
 
 .nav-standart__list {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   list-style: none;
@@ -1577,7 +1588,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 0;
-  width: 532px;
   margin: 5px 0 0 20.5%; }
 
 .nav-standart__link {
@@ -1595,7 +1605,7 @@ body {
       content: '';
       width: 15px;
       height: 15px;
-      background: url(files/b1607c0fadd78d6684851f2b2965d41d.svg) no-repeat;
+      background: url(files/b3cbd768a0826970b3ba459bc25620bb.svg) no-repeat;
       right: -4px;
       top: 2px; }
 
@@ -1613,21 +1623,17 @@ body {
   .nav-standart--logged .nav-standart__userName {
     margin: 26px 0 0 10%; } }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   .nav-standart__list {
-    margin: 5px 0 0 6%; } }
+    margin: 5px 0 0 10%; } }
 
 @media (max-width: 1100px) {
   .nav-standart {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-    .nav-standart .button__full {
-      padding: 10px 16px;
-      font-size: 10px; }
-    .nav-standart .button__border {
-      font-size: 8px;
-      padding: 10px 15px; }
+    .nav-standart .button--full {
+      padding: 10px 16px; }
   .nav-standart__logo {
     margin: 0 0 0 2%;
     width: 70px;
@@ -1635,19 +1641,24 @@ body {
   .nav-standart__buttons-wrapper {
     margin-right: 2%; } }
 
-@media (max-width: 800px) {
+@media (max-width: 920px) {
   .nav-standart {
+    position: relative;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-    .nav-standart .button__border {
+    .nav-standart .button--bordering {
       padding: 10px 15px; }
+    .nav-standart .button--with-bordering-link {
+      font-size: 0.66rem; }
+    .nav-standart .button--full {
+      font-size: 0.66rem;
+      margin: 17px 65px 0 21px; }
   .nav-standart__list {
-    display: none; }
+    display: none;
+    z-index: 10; }
   .nav-standart__item {
     padding: 4px 5px; }
-  .nav-standart__link {
-    font-size: 14px; }
   .nav-standart__buttons-wrapper {
     margin: 0 5% 0 0; }
   .nav-standart__button-mobile {
@@ -1661,7 +1672,10 @@ body {
     background: none;
     margin: 0 10px 0 15px;
     vertical-align: top;
-    position: relative; }
+    position: absolute;
+    z-index: 100;
+    right: 5px;
+    top: 20px; }
     .nav-standart__button-mobile::before {
       position: absolute;
       content: '';
@@ -1683,7 +1697,8 @@ body {
     width: 40%;
     right: 0;
     background: #bc9cff;
-    border-radius: 4px; }
+    border-radius: 4px;
+    margin: 50px 0 0 10%; }
   .nav-standart__button-mobile--open.nav-standart__button-mobile::before {
     background: rgba(31, 32, 65, 0.5);
     -webkit-transform: rotate(45deg);
@@ -1696,21 +1711,15 @@ body {
   .nav-standart--logged .nav-standart__userName {
     margin: 26px 0 0 15%; } }
 
-@media (max-width: 500px) and (min-width: 400px) {
+@media (max-width: 450px) {
   .nav-standart {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    padding-bottom: 20px; }
     .nav-standart .nav-standart__buttons-wrapper {
-      margin: 34px 0 0 8px; }
-  .nav-standart__list {
-    width: 50%; } }
-
-@media (max-width: 399px) {
-  .nav-standart .nav-standart__buttons-wrapper {
-    margin: 10px 0 0 8px; } }
+      margin: 5px 0 0 0; }
+  .nav-standart .button--full {
+    margin: 17px 0 0 10px; }
+  .nav-standart__logo {
+    margin: 0 20%; } }
 
 .copyright {
   height: 70px;
@@ -1728,7 +1737,7 @@ body {
 
 .copyright__head {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   font-style: normal;
@@ -1785,11 +1794,11 @@ body {
   height: 24px;
   margin: 0 0 0 20px; }
   .social__item.social__item--twitter {
-    background: url(files/22c711bcbc6fa28ebcd4bc6b2ea399e2.svg) no-repeat; }
+    background: url(files/d8075d243f4221f9af649aa47ff91d6c.svg) no-repeat; }
   .social__item.social__item--facebook {
-    background: url(files/82bfe2f6e4a5ad02fdf13161f550899c.svg) no-repeat; }
+    background: url(files/a8bcb1814e1c3f1e5f5a8540f49ae62c.svg) no-repeat; }
   .social__item.social__item--instagram {
-    background: url(files/3b3095a01df800abf39e262a138887e4.svg) no-repeat; }
+    background: url(files/5e84c51e15ae3a7707a895f19188b158.svg) no-repeat; }
 
 .footer {
   -webkit-box-orient: vertical;
@@ -1810,7 +1819,7 @@ body {
 
 .footer__description {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   width: 560px;
@@ -1855,7 +1864,7 @@ body {
 
 .footerWidget__description {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75); }
 
@@ -1866,7 +1875,7 @@ body {
 .footerList__head, .footerWidget__subscribe-head {
   font-family: Montserrat-regular, sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.86rem;
   text-transform: uppercase;
   color: rgba(31, 32, 65, 0.75);
   color: #1f2041; }
@@ -1879,7 +1888,7 @@ body {
 .footerListon__link {
   text-decoration: none;
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75); }
 
@@ -1892,24 +1901,28 @@ body {
 
 .footerWidget__subscribe-description {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   margin: 20px 0 0 0; }
+
+@media (max-width: 1200px) {
+  .footerWidget__subscribe-wrapper {
+    width: 16%; } }
 
 @media (max-width: 1100px) {
   .footerWidget .input {
     padding: 12px 14px; }
     .footerWidget .input::-webkit-input-placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .footerWidget .input::-moz-placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .footerWidget .input:-ms-input-placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .footerWidget .input::-ms-input-placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .footerWidget .input::placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
   .footerWidget__logo-wrapper {
     margin: 100px 2.8% 116px 2%; } }
 
@@ -1945,10 +1958,11 @@ body {
 .index-header {
   background: #FFFFFF;
   z-index: 100;
-  position: relative; }
-  .index-header .nav-standart__list {
+  position: relative;
+  /*& .nav-standart__list{
     margin: 5px 0 0 19.8%;
-    width: 460px; }
+    width: 460px;
+  }*/ }
   .index-header .nav-standart__item:not(:last-child) {
     margin: 0 20px 0 0; }
   .index-header .nav-standart__item .nav-standart__link--expand {
@@ -1958,7 +1972,6 @@ body {
   .index-header .nav-standart .button__wrapper {
     margin: 17px 0 0 4px; }
   .index-header .button__border {
-    /*padding: 7px 17px;*/
     background-size: 100% 100%; }
 
 .main {
@@ -1970,7 +1983,7 @@ body {
     top: 70px;
     left: 9.6%; }
   .main .main__background {
-    background: url(files/0db9b0111ec1ea0fe8222734dd0a48d3.png) no-repeat;
+    background: url(files/e420c259f946657822aba048b42a8123.jpg) no-repeat;
     width: 100%;
     height: 100%; }
     .main .main__background.main__gallery {
@@ -2009,26 +2022,24 @@ body {
   position: absolute;
   bottom: 20px;
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   width: 300px;
   right: 9%;
   text-align: end; }
 
-@media (max-width: 1260px) {
-  .index-header .nav-standart__list {
-    margin: 5px 0 0 10%; } }
+/*@media (max-width: 1260px) {
+  .index-header{
+    & .nav-standart__list{
+      margin: 5px 0 0 10%;
 
+    }
+  }
+}*/
 @media (max-width: 1100px) {
-  .index-header .nav-standart__list {
-    font-size: 12px;
-    margin: 5px 0 0 5%;
-    width: 410px; }
   .index-header .button__border {
-    padding: 10px 15px; }
-  .index-header .button__full {
-    font-size: 8px; } }
+    padding: 10px 15px; } }
 
 @media (max-width: 800px) {
   .index-header .nav-standart__logo {
@@ -2037,31 +2048,37 @@ body {
     padding: 10px 15px; } }
 
 @media (max-width: 500px) {
-  .index-header .nav-standart {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    height: 95px; }
-    .index-header .nav-standart .button__wrapper {
-      margin: 10px 0 0 4px; }
-    .index-header .nav-standart .button__full {
-      margin: 10px 0 0 21px; }
-  .index-header .nav-standart__list {
-    width: 50%; }
-  .index-header .nav-standart__button-mobile {
-    margin: 0 0 0 20px; } }
+  .index-header {
+    /*& .nav-standart__button-mobile{
+      margin: 0 0 0 20px;
+    }*/ }
+    .index-header .nav-standart {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      /*height: 95px;*/
+      /*& .button--full{
+        margin: 10px 0 0 21px;
+      }*/ }
+      .index-header .nav-standart .button__wrapper {
+        margin: 10px 0 0 4px; }
+    .index-header .nav-standart__list {
+      width: 50%; } }
 
 @media (max-width: 399px) {
-  .index-header .nav-standart__list {
-    top: 50px;
-    right: 4%; }
+  /*.index-header{
+    & .nav-standart__list{
+      top: 50px;
+      right: 4%;
+    }
+  }*/
   .main .searchRoom {
     left: 0; } }
 
 .main-registration {
-  background: url(files/71c3f0d9dbf544194ab1df3f53046253.png) no-repeat;
+  background: url(files/ee83cd67f25233d10f055f697190c877.jpg) no-repeat;
   height: 703px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2089,27 +2106,27 @@ body {
   z-index: 1; }
   .signIn .input {
     margin: 0 0 12px 0; }
-  .signIn .button__full {
+  .signIn .button--full {
     padding: 15px 135px;
     margin: 8px 0 0 0; }
-  .signIn .button__border-link {
+  .signIn .button--with-bordering-link {
     margin: 0 0 0 60px;
     padding: 11px 0;
     width: 92px; }
-    .signIn .button__border-link::before {
+    .signIn .button--with-bordering-link::before {
       width: 99px;
       height: 44px; }
 
 .signIn__head {
   font-family: Quicksand, sans-serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.71rem;
   color: #1F2041;
   margin: 40px 0 20px 0; }
 
 .signIn__label {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   display: block;
@@ -2123,15 +2140,15 @@ body {
       font-size: 18px; }
     .signIn .input {
       width: 260px; }
-    .signIn .button__full {
+    .signIn .button--full {
       padding: 15px 106px; }
     .signIn .signIn__label {
       font-size: 12px; }
-    .signIn .button__border-link {
+    .signIn .button__button--with-bordering-link {
       margin: 0 0 0 10px; } }
 
 .main-signIn {
-  background: url(files/71c3f0d9dbf544194ab1df3f53046253.png) no-repeat;
+  background: url(files/ee83cd67f25233d10f055f697190c877.jpg) no-repeat;
   height: 683px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2163,14 +2180,14 @@ body {
   width: 264px; }
 
 .filter .ui-datepicker-title {
-  font-size: 16px; }
+  font-size: 1.14rem; }
 
 .filter .ui-datepicker-next::before {
   left: 180px;
   top: 22px; }
 
 .filter .ui-datepicker-calendar {
-  font-size: 10px;
+  font-size: 0.71rem;
   margin: 39px 0 0 5px; }
 
 .filter .ui-datepicker-calendar td, .filter .ui-datepicker-calendar td .ui-state-default {
@@ -2202,7 +2219,7 @@ body {
 .side-panel__slogan {
   font-family: Montserrat-regular, sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.86rem;
   text-transform: uppercase;
   color: rgba(31, 32, 65, 0.75);
   color: #1f2041;
@@ -2223,7 +2240,7 @@ body {
   color: #1f2041;
   font-family: Montserrat-regular, sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.86rem;
   text-transform: uppercase;
   color: rgba(31, 32, 65, 0.75);
   display: block; }
@@ -2237,7 +2254,7 @@ body {
 .side-panel__range-reference {
   font-family: Montserrat-regular, sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.86rem;
   text-transform: uppercase;
   color: rgba(31, 32, 65, 0.75);
   color: rgba(31, 32, 65, 0.5);
@@ -2258,7 +2275,7 @@ body {
 .filtered-rooms__head {
   font-family: Quicksand, sans-serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.71rem;
   color: #1F2041;
   margin: 32px 0 20px 0;
   letter-spacing: -1.5px; }
@@ -2275,14 +2292,21 @@ body {
     .filtered-rooms .pagination__list {
       margin: 20px 0 10px 0; }
   .filtered-rooms__head {
-    font-size: 18px; } }
+    font-size: 1.29rem; } }
 
 @media (max-width: 750px) {
   .side-panel {
     margin: 31px auto 0 auto; }
   .filtered-rooms {
     width: 300px;
-    margin: 0 auto 70px auto; } }
+    margin: 0 auto 70px auto; }
+    .filtered-rooms .pagination {
+      width: 300px;
+      margin: 0 auto; } }
+
+@media (max-width: 599px) {
+  .input.input__filter-hide {
+    width: 0; } }
 
 .room-detail {
   position: relative; }
@@ -2299,6 +2323,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  .room-detail__image-wrapper > .room-detail__image:first-child {
+    -ms-flex-preferred-size: 68.1%;
+        flex-basis: 68.1%;
+    width: 68.1%; }
 
 .room-detail__images-aside {
   display: -webkit-box;
@@ -2306,10 +2334,13 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 459px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  -ms-flex-preferred-size: 31.9%;
+      flex-basis: 31.9%; }
+  .room-detail__images-aside .room-detail__image {
+    width: 100%; }
 
 .room-description {
   margin: 71px 0 0 9.6%; }
@@ -2346,7 +2377,7 @@ body {
 .room-description__cancel-head {
   font-family: Quicksand, sans-serif;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 1.36rem;
   color: #1F2041;
   letter-spacing: -1.2px;
   margin: 0 0 22px 0; }
@@ -2359,7 +2390,7 @@ body {
 
 .pie-chart-outer {
   position: absolute;
-  top: 38px; }
+  top: 30px; }
 
 .room-description__review {
   position: relative; }
@@ -2370,7 +2401,7 @@ body {
 
 .room-description__review-number {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   color: rgba(31, 32, 65, 0.5);
@@ -2393,7 +2424,7 @@ body {
 .room-description__cancel-paragraph {
   width: 350px;
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   margin: 18px 0 0 0; }
@@ -2422,11 +2453,6 @@ body {
     margin: 14px 0 90px 8%; } }
 
 @media (max-width: 800px) {
-  .room-detail__image-wrapper {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-  .room-detail__images-aside {
-    width: 100%; }
   .room-detail__image {
     margin: auto; }
   .room-description {
@@ -2445,65 +2471,71 @@ body {
     right: 10%; } }
 
 @media (max-width: 450px) {
-  .room-detail__image {
-    width: 320px;
-    height: 250px;
-    margin: auto; }
+  .room-detail__image-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .room-detail__images-aside {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; }
+  .room-detail__image-wrapper > .room-detail__image:first-child {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; }
   .room-detail__room-description .orderRoom {
-    width: 320px; }
+    width: 100%;
+    padding-left: 20px; }
     .room-detail__room-description .orderRoom .orderRoom__number {
-      font-size: 18px; }
+      font-size: 1.29rem; }
     .room-detail__room-description .orderRoom .orderRoom__type-room {
-      font-size: 12px;
+      font-size: 0.86rem;
       margin: 0 70px 0 0; }
     .room-detail__room-description .orderRoom .orderRoom__price {
-      font-size: 13px; }
+      font-size: 0.93rem; }
     .room-detail__room-description .orderRoom .input.input__date {
       width: 120px; }
     .room-detail__room-description .orderRoom .input::-webkit-input-placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .room-detail__room-description .orderRoom .input::-moz-placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .room-detail__room-description .orderRoom .input:-ms-input-placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .room-detail__room-description .orderRoom .input::-ms-input-placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .room-detail__room-description .orderRoom .input::placeholder {
-      font-size: 12px; }
+      font-size: 0.86rem; }
     .room-detail__room-description .orderRoom .input__label-dropdown::after {
       right: -20px; }
     .room-detail__room-description .orderRoom .input {
       width: 265px; }
-    .room-detail__room-description .orderRoom .button__full--buy {
+    .room-detail__room-description .orderRoom .button--for-filtering {
       padding: 15px 65px; }
   .room-detail__room-description .orderRoom__total-description {
-    font-size: 13px;
+    font-size: 0.93rem;
     width: 200px; }
   .room-detail__room-description .orderRoom__total-price {
-    font-size: 13px; }
+    font-size: 0.93rem; }
   .room-detail__room-description .orderRoom__total-tax {
     right: 40px; }
   .room-detail__room-description .orderRoom__sum-label {
-    font-size: 18px; }
+    font-size: 1.29rem; }
   .room-detail__room-description .orderRoom__sum {
-    font-size: 18px; }
+    font-size: 1.29rem; }
   .room-detail__room-description .orderRoom__sum-wrapper::after {
     width: 110px; }
   .room-detail__room-description .room-description__features-head, .room-detail__room-description .room-description__pie-chart-head,
   .room-detail__room-description .room-description__review-head, .room-detail__room-description .room-description__rules-head,
   .room-detail__room-description .room-description__cancel-head {
-    font-size: 16px; }
+    font-size: 1.14rem; }
   .room-description__cancel .room-description__cancel-paragraph {
     width: 90%; }
   .room-description__pie-chart-wrapper {
     margin: 12px 0 0 2%; }
     .room-description__pie-chart-wrapper .pie-chart__item {
-      font-size: 13px; }
+      font-size: 0.93rem; }
   .pie-chart-outer {
-    top: 35px; }
+    top: 30px; }
   .room-description__review-number {
     right: 2%;
-    font-size: 12px;
+    font-size: 0.86rem;
     top: 34px; } }
 
 .pie-chart {
@@ -2517,7 +2549,7 @@ body {
 
 .pie-chart__item {
   font-family: Montserrat-regular, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   position: relative; }
