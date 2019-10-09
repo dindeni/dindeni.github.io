@@ -8,7 +8,7 @@ html {
   font: 13px/42px latoblack sans-serif;
   background: #ffffff; }
 
-.form {
+.demo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,26 +18,19 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 20px; }
-
-.form__input-wrapper {
-  width: 160px;
-  margin: 0 20px 0 0;
-  position: relative; }
-
-.form__input-value, .form__input-settings {
-  background: #e5e5e5;
-  border-radius: 5px;
-  border: none;
-  height: 26px;
-  width: 100%;
-  padding: 0 0 0 10px;
-  /*margin: 10px 10px 15px;;*/ }
-  .form__input-value.form__input-value--min, .form__input-value.form__input-value--max, .form__input-settings.form__input-value--min, .form__input-settings.form__input-value--max {
-    width: 91px; }
-
-.form__label-input {
-  font-size: 12px;
-  /*margin: 0 10px 0 10px;*/ }
+  .demo__field-wrapper {
+    width: 160px;
+    margin: 0 20px 0 0;
+    position: relative; }
+  .demo__field-value, .demo__field-settings {
+    background: #e5e5e5;
+    border-radius: 5px;
+    border: none;
+    height: 26px;
+    width: 100%;
+    padding: 0 0 0 10px; }
+  .demo__mark {
+    font-size: 12px; }
 
 .error {
   background: url(./files/de41f73b9207440a315fe69cc062e644.svg) no-repeat;
@@ -65,7 +58,7 @@ html {
       -ms-flex-align: center;
           align-items: center; }
 
-.main {
+.index {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,66 +67,60 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-
-.main__form-wrapper {
-  width: 40%;
-  margin: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  .main__form-wrapper .slider-wrapper {
-    margin: 50px 20px 20px 20px; }
+  .index__wrapper {
+    width: 40%;
+    margin: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .index__wrapper .slider-wrapper {
+      margin: 50px 20px 20px 20px; }
 
 .slider {
   position: relative;
   padding: 20px 0;
   margin: 20px 20px; }
-
-.slider__track {
-  width: 260px;
-  height: 5px;
-  background: #e5e5e5;
-  position: relative; }
-
-.slider__progress {
-  width: 0;
-  height: 5px;
-  background: #e75735; }
-
-.slider__label {
-  height: 28px;
-  width: 35px;
-  background: url(./files/1c2698e15f09fc633a9552d3c8af4292.svg) no-repeat;
-  color: #ffffff;
-  text-align: center;
-  line-height: 25px;
-  position: absolute;
-  top: -18px;
-  left: -8px; }
-
-.slider__scale-item {
-  position: absolute;
-  list-style: none;
-  font-size: 11px;
-  color: #d1d1d1;
-  letter-spacing: 0.55px;
-  text-align: center;
-  width: 21px; }
-
-.slider__thumb {
-  width: 21px;
-  height: 21px;
-  background: #e75735;
-  border-radius: 50%;
-  position: absolute;
-  top: 12px; }
+  .slider__track {
+    width: 260px;
+    height: 5px;
+    background: #e5e5e5;
+    position: relative; }
+  .slider__progress {
+    width: 0;
+    height: 5px;
+    background: #e75735; }
+  .slider__label {
+    height: 28px;
+    width: 35px;
+    background: url(./files/1c2698e15f09fc633a9552d3c8af4292.svg) no-repeat;
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    top: -18px;
+    left: -8px; }
+  .slider__scale-item {
+    position: absolute;
+    list-style: none;
+    font-size: 11px;
+    color: #d1d1d1;
+    letter-spacing: 0.55px;
+    text-align: center;
+    width: 21px; }
+  .slider__thumb {
+    width: 21px;
+    height: 21px;
+    background: #e75735;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px; }
 
